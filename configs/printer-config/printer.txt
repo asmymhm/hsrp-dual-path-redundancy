@@ -1,0 +1,7 @@
+Printer Configuration: (Static IP)
+
+Device        IP Address         Subnet Mask         Default Gateway
+
+Printer-P1    192.168.20.11      255.255.255.0       192.168.20.1
+
+Printer-P2    192.168.20.12      255.255.255.0       192.168.20.1
