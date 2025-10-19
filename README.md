@@ -24,7 +24,7 @@
     - [🚦 ISP Router 2](#-isp-router-2)
     - [🔀 Switch 1](#-switch-1)  
     - [🔀 Switch 2](#-switch-2)  
-    - [Printer Configuration](#-printer-configuration)  
+    - [🖨️ Printer Configuration](#-printer-configuration)  
     - [🖥️ PC and Laptop Configuration](#-pc-and-laptop-configuration)
 8.  [✅ Verification Commands](#-verification-commands)  
 9.  [⚡ How to Run Lab](#-how-to-run-lab)  
@@ -62,7 +62,7 @@ The key goals of this project:
 ## 🌐 Network Topology
 
 📸 **Network Topology Diagram**  
-`/topology/topology_overview.png`
+`/topology/topology_overview_drawio.png`
 
 <img src="topology/topology_overview_drawio.png" alt="NETWORK TOPOLOGY" style="border:1px solid #ddd; padding:5px; max-width:100%; height:auto;">
 
@@ -191,7 +191,7 @@ no shutdown
 [View Full Configuration File →](configs/router-config/isp-r2.cfg)
 
 
-### Switch 1 
+### 🔀 Switch 1 
 ```text
 ! --- 2. Configure SVIs (Default Gateways) ---
 ip routing  ! Activates Layer 3 routing
@@ -205,7 +205,7 @@ no shutdown
 [View Full Configuration File →](configs/switch-config/sw1.cfg)
 
 
-### Switch 2
+### 🔀 Switch 2
 ```text
 ! --- 2. Configure Inter-Switch Trunk Link (SW2 G0/2 to SW1 G0/2) ---
 ! This connects SW-2 to the Core Switch SW-1
@@ -219,7 +219,7 @@ no shutdown
 [View Full Configuration File →](configs/switch-config/sw2.cfg)
 
 
-### Printer
+### 🖨️ Printer
 
 | Device        | IP Address    | Subnet Mask   | Default Gateway |
 | :----------   | :------------ | :------------ | :-------------  |
